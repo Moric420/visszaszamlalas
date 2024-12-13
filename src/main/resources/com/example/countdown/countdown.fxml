@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="CountdownController" alignment="CENTER" spacing="10">
+    <TextField fx:id="dateTimeInput" promptText="YYYY.MM.DD HH:mm:ss" />
+    <Button text="Indít" onAction="#startCountdown" />
+    <Label fx:id="countdownLabel" text="" style="-fx-font-size: 16;" />
+</VBox>
+
+
